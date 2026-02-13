@@ -1,8 +1,4 @@
-def suma(a: float, b: float) -> float:
-    return a + b
-
-def diff(a: float, b: float) -> float:
-    return a - b
+import calc
 
 def main():
     print("New project")
@@ -10,8 +6,8 @@ def main():
     a = 4
     b = 5
 
-    res1 = suma(a, b)
-    res2 = diff(a, b)
+    res1 = calc.suma(a, b)
+    res2 = calc.diff(a, b)
 
     print(res1, res2)
 
